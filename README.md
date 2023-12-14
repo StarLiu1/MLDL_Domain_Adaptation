@@ -7,8 +7,12 @@ Unsupervised domain adaptation concerns the scenario where there are labeled ima
 
 We used the Office-Home3 [5], 4 datasets curated by Jose Eusebio et al. This dataset contains 15,500 images of 65 classes of objects common to most homes and offices. There are 4 domains of im- ages. The first three domains, Artistic images, Clip art, and Product images (ACP), were considered the source domains on which the models were trained. The real-world images (RWI) were the target source images for testing the performance of domain adaptation.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/StarLiu1/MLDL_Domain_Adaptation/blob/main/assets/ensemble.png" data-canonical-src="https://github.com/StarLiu1/MLDL_Domain_Adaptation/blob/main/assets/ensemble.png" width="800" height="250" /> 
+<br>
+Ensemble Architecture
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/StarLiu1/MLDL_Domain_Adaptation/blob/main/assets/adda_schematic.png)
+<br>
+ADDA Architecture
 
 For details on the architectures, please check out the [Final Report](https://github.com/StarLiu1/MLDL_Domain_Adaptation/blob/main/Final%20Report.pdf). All models and scripts are under /src. 
