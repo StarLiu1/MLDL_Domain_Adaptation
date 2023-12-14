@@ -1,3 +1,4 @@
 *.csv
 *.pth
 *.DS_Store
+*checkpoint.ipynb
